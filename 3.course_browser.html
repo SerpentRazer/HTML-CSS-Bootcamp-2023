@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy</title>
+</head>
+<body>
+    
+    <h1>Search Page</h1>
+
+
+    <form action="/clp">
+
+        <p>
+            <label for="title"></label><b>Course Title*:</b></label>
+            <input id="title" type="text" name="title" placeholder="Title..." required>
+        </p>
+
+            <p></p>
+            <label for="description"><b>Course Description:</b></label>
+            <div></div>
+            <textarea name="description" id="description" rows="10" cols="30" placeholder="Type description here..."></textarea >
+
+        <p></p>
+        <div>
+        <label for="level"><b>Skill Level</b></label>
+
+        <select name="experience" id="level">
+            <option value="novice">Beginner</option>
+            <option value="medium">Intermediate</option>
+            <option value="experienced">Experienced</option>
+            <option value="sigma">Sigma</option>
+        </select>
+    
+        <p></p>
+        <label for="check">All information is correct?*</label>
+        <input type="checkbox" id="check" name="request" required>
+        </div>
+
+        <div>
+        <button>Submit</button>
+        </div>
+
+        <h6><em>Please note that information marked with <b>*</b> is mandatory!</em></h6>
+
+    </form>
+</body>
+</html>
