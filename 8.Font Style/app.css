@@ -1,0 +1,21 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: "Noto Serif";
+  }
+  h2 {
+    font-size: 50px;
+    font-style: italic;
+    color: #702963;
+  }
+  h3 {
+    font-size: 35px;
+    font-family: "Indie Flower";
+    color: rgb(164, 22, 128);
+  }
+  P {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 80px;
+    letter-spacing: 10px;
+  }
