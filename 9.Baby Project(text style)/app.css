@@ -1,0 +1,28 @@
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+p {
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: left;
+  line-height: 1;
+
+}
+
+div {
+  width: 60%;
+  margin-left: 80px;
+  margin-top: 300px;
+}
+
+span {
+  text-shadow: 
+   blue 0px -4px 2px,
+   turquoise 0px -8px 2px, 
+   red 0px 4px 2px,
+   yellow 0px 8px 2px;
+}
